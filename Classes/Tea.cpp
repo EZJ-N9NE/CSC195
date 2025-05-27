@@ -4,7 +4,7 @@ void Tea::Read(ostream& ostream, istream& istream)
 {
 	Beverage::Read(ostream, istream);
 
-	ostream << "Does it have milk?: ";
+	ostream << "Does it have milk? (0 for No, 1 for Yes): ";
 	istream >> m_hasMilk;
 }
 
