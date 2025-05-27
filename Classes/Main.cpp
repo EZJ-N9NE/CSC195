@@ -35,7 +35,7 @@ int main()
         }
         case 4:
         {
-            std::cout << "Enter type (0 for TYPE1, 1 for TYPE2): ";
+            std::cout << "Enter type (1 for Coffee, 2 for Tea): ";
             int t;
             std::cin >> t;
             database.Display(static_cast<Beverage::eType>(t)); break;

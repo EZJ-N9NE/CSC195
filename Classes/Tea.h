@@ -7,5 +7,5 @@ public:
 	void Read(ostream& ostream, istream& istream) override;
 	void Write(ostream& ostream) override;
 protected:
-	bool m_hasMilk;
+	bool m_hasMilk = false;
 };
